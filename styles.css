@@ -33,7 +33,6 @@ body {
   align-items: center;
   background-color: white;
   margin-top: 10px;
-  
 }
 
 .item-info {
@@ -62,10 +61,15 @@ h3 {
   margin-bottom: 0;
 }
 
-img {
+.image {
   width: 200px;
   height: 200px;
   border-radius: 8px;
+  transition: transform .3s;
+}
+
+.image:hover {
+  transform: scale(1.1);
 }
 
 footer {
