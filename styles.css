@@ -13,11 +13,13 @@ body {
 .menu {
   display: flex;
   justify-content: space-evenly;
+  gap: 5px;
 }
 
 .menu a {
   text-decoration: none;
   font-size: 20px;
+  color: black;
 }
 
 .menu a:visited {
@@ -79,6 +81,9 @@ footer {
 }
 
 @media screen  and (max-width: 580px) {
+  h1 {
+    font-size: 20px;
+  }
   .item {
     flex-direction: column;
     text-align: center;
