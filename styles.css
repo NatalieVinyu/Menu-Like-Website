@@ -65,7 +65,7 @@ h3 {
 
 .image {
   width: 200px;
-  height: 200px;
+  height: auto;
   border-radius: 8px;
   transition: transform .3s;
 }
@@ -76,4 +76,26 @@ h3 {
 
 footer {
   text-align: center;
+}
+
+@media screen  and (max-width: 580px) {
+  .item {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .item-info {
+    margin: 10px;
+  }
+
+  .item img {
+    width: 200px;
+    height: auto;
+  }
+
+  .price {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
 }
