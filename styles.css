@@ -82,6 +82,10 @@ footer {
 
 @media screen  and (max-width: 580px) {
   h1 {
+    font-size: 25px;
+  }
+
+  h2, h3 {
     font-size: 20px;
   }
 
@@ -89,8 +93,9 @@ footer {
     flex-direction: row;
     align-items: center;
   }
+
   .menu a {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .item {
@@ -109,6 +114,7 @@ footer {
   }
 
   .price {
+    font-size: 20px;
     padding: 10px;
     margin-bottom: 10px;
   }
