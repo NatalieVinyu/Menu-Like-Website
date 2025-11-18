@@ -44,11 +44,16 @@ body {
   margin: 40px;
 }
 
+.item-info p {
+  opacity: 0.5;
+}
+
 .price{
   font-size: 25px;
   font-weight: bold;
   padding: 40px;
   font-family: monospace;
+  color: #895737;
 }
 
 
