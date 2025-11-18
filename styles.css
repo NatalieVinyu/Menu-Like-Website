@@ -84,6 +84,15 @@ footer {
   h1 {
     font-size: 20px;
   }
+
+  .menu {
+    flex-direction: row;
+    align-items: center;
+  }
+  .menu a {
+    font-size: 10px;
+  }
+
   .item {
     flex-direction: column;
     text-align: center;
