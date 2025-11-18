@@ -8,6 +8,7 @@ body {
   padding: 20px;
   border-radius: 40px;
   background-color: white;
+  font-family: Poppins;
 }
 
 .menu {
@@ -47,6 +48,7 @@ body {
   font-size: 25px;
   font-weight: bold;
   padding: 40px;
+  font-family: monospace;
 }
 
 
